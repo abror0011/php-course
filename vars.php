@@ -11,7 +11,7 @@
     
     $myBool = true; // or false
     // var_dump($myBool);  
-
+    $int =123;
     $myArray = [
         'Apple', 
         'Orange', 
