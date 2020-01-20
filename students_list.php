@@ -7,13 +7,13 @@
 </head>
 <body>
     <table border = "1" width="100%" >
-        <thead>
+        
             <th>№</th>
             <th>FIO</th>
             <th>Guruh</th>
             <th>Yosh</th>
             <th>Yosh kattaligi</th>
-        </thead>
+       
         <tbody>
         <!-- PHP Default -->
         <!--

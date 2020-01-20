@@ -12,6 +12,6 @@
     // var_dump($students);
 
     foreach ($students as $student) {
-        echo $student['fio'] ." - ". $student['group'];
+        echo $student['fio'] ." - ". $student['group']." Yoshi".$student['age'];
         echo '<br>';
     }
