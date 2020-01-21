@@ -6,14 +6,14 @@
     <title>Guruh royxati</title>
 </head>
 <body>
-    <table border = "1" width="100%" >
-        
+    <table border = "2" width="100%" >
+        <   
             <th>№</th>
             <th>FIO</th>
             <th>Guruh</th>
             <th>Yosh</th>
             <th>Yosh kattaligi</th>
-       
+        </thead>
         <tbody>
         <!-- PHP Default -->
         <!--
