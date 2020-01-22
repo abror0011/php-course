@@ -13,12 +13,29 @@
 
     //  echo getNowTime();
 
-    function add($a, $b) {
-        return $a+$b;
-    }
+    // function add($a, $b) {
+    //     return $a+$b;
+    // }
     // function add($a, $b) {
     //     echo $a+$b;
     // }
 
-    echo add(5, 10);
+    // echo add(5, 10);
     // add(5, 10);
+    
+    function abror($a, $b){
+         echo $a." ".$b;
+    }
+    //abror('Abror','Orinov');
+    //abror('Abror','Orinov');
+
+    /**
+     * Anonim function
+     */
+    $myFunc = function($a, $b) {
+         return $a+$b;
+    };
+
+    echo $myFunc(5, 55);
+?>
+    
