@@ -28,7 +28,7 @@
     sort($myArray);
     echo "Sorted:\n";
     var_dump($myArray);
-
+    
     echo "Reversed:\n";
     $reversed = array_reverse($myArray);
     var_dump($reversed);
