@@ -35,7 +35,9 @@
     $myFunc = function($a, $b) {
          return $a+$b;
     };
-
-    echo $myFunc(5, 55);
+    //uniqueid() = unikal id qaytaradi
+    //md5() = hashlash uchun funksiya, algoritimi md5
+//     echo $myFunc(5, 55);
+    echo md5(uniqid());
 ?>
     
