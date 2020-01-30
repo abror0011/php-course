@@ -14,7 +14,7 @@
         <?php foreach ($tests AS $index => $test): ?>
         <div>
             <div><b><?=$index+1?>) <?= $test['question'] ?></b></div>
-            <?php foreach($test['answers'] as $key => $answer): ?>
+            <?php foreach ($test['answers'] as $key => $answer): ?>
             <label>
                 <input type="radio" name="answer[<?=$index?>]" value="<?= $key ?>"> 
                 <?= $answer ?>
