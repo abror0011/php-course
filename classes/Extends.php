@@ -16,8 +16,8 @@ class Student extends Person
     {
         $this->first_name .= 'bek';
         
-        // return parent::getFullName();
-        return "ABC";
+        return parent::getFullName();
+        // return $this->first_name; 
     }
 }
 

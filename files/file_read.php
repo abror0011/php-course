@@ -3,7 +3,7 @@
     $handler = fopen('test.txt', 'r'); // r=read, w=write
 
     $data = fread($handler, 10000);
-
-    var_dump($data);
+    echo $data;
+    // var_dump($data);
     //fclose($handler)
     fclose($handler);
